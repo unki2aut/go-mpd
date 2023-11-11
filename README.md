@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/unki2aut/go-mpd.svg?branch=master)](https://travis-ci.org/unki2aut/go-mpd) [![gocover](https://gocover.io/_badge/github.com/unki2aut/go-mpd)](https://gocover.io/github.com/unki2aut/go-mpd) [![Go Report Card](https://goreportcard.com/badge/github.com/unki2aut/go-mpd)](https://goreportcard.com/report/github.com/unki2aut/go-mpd) [![GoDoc](https://godoc.org/github.com/unki2aut/go-mpd?status.svg)](https://godoc.org/github.com/unki2aut/go-mpd)
+[![Build Status](https://travis-ci.org/unki2aut/go-mpd.svg?branch=master)](https://travis-ci.org/unki2aut/go-mpd) [![Go Coverage](https://github.com/unki2aut/go-mpd/wiki/coverage.svg)](https://raw.githack.com/wiki/unki2aut/go-mpd/coverage.html) [![Go Report Card](https://goreportcard.com/badge/github.com/unki2aut/go-mpd)](https://goreportcard.com/report/github.com/unki2aut/go-mpd) [![GoDoc](https://godoc.org/github.com/unki2aut/go-mpd?status.svg)](https://godoc.org/github.com/unki2aut/go-mpd)
 # go-mpd 
 
 Go library for parsing and generating MPEG-DASH Media Presentation Description (MPD) files.
