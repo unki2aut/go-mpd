@@ -126,8 +126,9 @@ type Representation struct {
 
 // Descriptor represents XSD's DescriptorType.
 type Descriptor struct {
-	SchemeIDURI *string `xml:"schemeIdUri,attr"`
-	Value       *string `xml:"value,attr"`
+	SchemeIDURI 	 *string `xml:"schemeIdUri,attr"`
+	Value       	 *string `xml:"value,attr"`
+	CencDefaultKeyId *string `xml:"cenc:default_KID,attr,omitempty"`
 }
 
 // SegmentTemplate represents XSD's SegmentTemplateType.
