@@ -4,9 +4,10 @@ package mpd
 import (
 	"bytes"
 	"encoding/xml"
-	"github.com/unki2aut/go-xsd-types"
 	"io"
 	"regexp"
+
+	"github.com/unki2aut/go-xsd-types"
 )
 
 // http://mpeg.chiariglione.org/standards/mpeg-dash
@@ -128,9 +129,9 @@ type Representation struct {
 type Descriptor struct {
 	SchemeIDURI      *string `xml:"schemeIdUri,attr"`
 	Value            *string `xml:"value,attr"`
-	CencDefaultKeyId *string `xml:"default_KID,attr,omitempty"`
-	MSPRPro          *string `xml:"pro,omitempty"`
-	CencPSSH         *string `xml:"pssh,omitempty"`
+	CencDefaultKeyId *string `xml:"cenc:default_KID,attr,omitempty"`
+	MSPRPro          *string `xml:"mspr:pro,omitempty"`
+	CencPSSH         *string `xml:"cenc:pssh,omitempty"`
 }
 
 // SegmentTemplate represents XSD's SegmentTemplateType.
